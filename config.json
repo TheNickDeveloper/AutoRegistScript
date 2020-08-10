@@ -1,10 +1,10 @@
 {
-	"username" : "louis",
-	"password" : "1111",
-	"account_details_file_path" : "C:/Users/tsainic/OneDrive - Mars Inc/Desktop/python_data/AccountCreate/AccountsDetails.xlsx",
+	"username" : "",
+	"password" : "",
+	"account_details_file_path" : "",
 	"url_options" : {
-		"cot_url":"https://cot-uat.effem.com/web/login.jsp",
-		"cot_emp_url":"https://cot-uat.effem.com/web/index.jsp#/navigation/basicData/menugroup/baseEmp/menu/blank",
-		"cot_user_url":"https://cot-uat.effem.com/web/index.jsp#/navigation/basicData/menugroup/baseUser/menu/blank"
+		"cot_url":"",
+		"cot_emp_url":"",
+		"cot_user_url":""
 	}
-}
+} 
