@@ -1,0 +1,237 @@
+2020-08-08 21:06:47,101 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:07:01,198 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:07:02,293 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:07:06,398 - Services.LogHelper - ERROR - [Errno 13] Permission denied: 'C:/Users/tsainic/OneDrive - Mars Inc/Desktop/python_data/AccountCreate/AccountsDetails.xlsx'
+2020-08-08 21:07:49,993 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:07:51,885 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:07:53,438 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:09:37,860 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:09:43,407 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:09:44,383 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:09:48,892 - Services.LogHelper - ERROR - can't set attribute
+2020-08-08 21:11:07,677 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:11:15,047 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:11:15,464 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:11:16,085 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:11:23,570 - Services.LogHelper - ERROR - can't set attribute
+2020-08-08 21:13:00,548 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:13:04,400 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:13:04,401 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:13:33,203 - Services.LogHelper - ERROR - can't set attribute
+2020-08-08 21:13:38,809 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:13:38,809 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:13:38,810 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:14:43,914 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:14:43,914 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:14:43,915 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:16:17,303 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:16:17,304 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:16:17,304 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:16:53,640 - Services.LogHelper - ERROR - 'Logger' object has no attribute 'logger'
+2020-08-08 21:18:23,044 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:18:23,044 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:18:23,045 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:18:51,610 - Services.LogHelper - ERROR - 'Logger' object has no attribute 'logger'
+2020-08-08 21:20:37,702 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:20:37,703 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:20:37,703 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:21:03,647 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:21:19,476 - Services.LogHelper - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="userAccount"]"}
+  (Session info: chrome=84.0.4147.105)
+
+2020-08-08 21:23:23,187 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:23:23,188 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:23:23,188 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:23:34,392 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:24:47,010 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:24:47,010 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:24:47,011 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:24:48,377 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:25:02,979 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:25:19,614 - Services.LogHelper - INFO - Navigate to employee account and add memeber.
+2020-08-08 21:25:23,526 - Services.LogHelper - INFO - Radio button click.
+2020-08-08 21:25:26,007 - Services.LogHelper - INFO - Region select via pop window.
+2020-08-08 21:25:36,711 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:25:57,565 - Services.LogHelper - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="$lk_empCode"]"}
+  (Session info: chrome=84.0.4147.105)
+
+2020-08-08 21:26:34,290 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:26:34,291 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:26:34,292 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:26:35,915 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:26:54,278 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:27:01,689 - Services.LogHelper - INFO - Navigate to employee account and add memeber.
+2020-08-08 21:27:03,113 - Services.LogHelper - INFO - Radio button click.
+2020-08-08 21:27:03,231 - Services.LogHelper - INFO - Region select via pop window.
+2020-08-08 21:27:10,540 - Services.LogHelper - INFO - Save people infor.
+2020-08-08 21:27:22,930 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:27:25,128 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 21:27:27,753 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 21:27:52,471 - Services.LogHelper - ERROR - Message: tree
+
+2020-08-08 21:28:10,603 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:28:10,604 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:28:10,604 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:28:12,587 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:28:27,233 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:28:36,168 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:28:46,171 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 21:28:59,972 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 21:31:30,434 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:31:30,434 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:31:30,434 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:31:31,938 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:31:48,962 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:31:55,788 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:31:57,469 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 21:32:01,728 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 21:32:01,915 - Services.LogHelper - ERROR - Message: tree
+
+2020-08-08 21:32:44,015 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:32:44,016 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:32:44,016 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:32:45,481 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:33:08,777 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:33:11,582 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:33:12,125 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 21:33:33,443 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 21:33:33,659 - Services.LogHelper - ERROR - Message: tree
+
+2020-08-08 21:33:54,713 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:33:54,713 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:33:54,714 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:33:56,213 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:34:09,987 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:34:19,921 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:34:20,524 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 21:34:23,731 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 21:34:23,933 - Services.LogHelper - ERROR - Message: tree
+
+2020-08-08 21:35:39,277 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:35:39,278 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:35:39,278 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:35:40,742 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:36:07,423 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:36:14,793 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:36:15,363 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 21:36:18,506 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 21:38:24,580 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:38:24,581 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:38:24,581 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:38:26,532 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:38:46,185 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:38:49,511 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:38:50,024 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 21:38:53,189 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 21:39:09,509 - Services.LogHelper - INFO - Save people infor.
+2020-08-08 21:39:14,585 - Services.LogHelper - ERROR - 'AccountDetails' object has no attribute 'username'
+2020-08-08 21:47:21,180 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 21:47:21,181 - Services.LogHelper - INFO - load config json file.
+2020-08-08 21:47:21,182 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 21:47:23,094 - Services.LogHelper - INFO - User Test 01
+2020-08-08 21:47:23,094 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:48:12,403 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 21:48:17,041 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 21:48:17,606 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 21:48:20,235 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 21:48:21,783 - Services.LogHelper - INFO - Save people infor.
+2020-08-08 21:50:56,710 - Services.LogHelper - INFO - Send email to inform user.
+2020-08-08 21:51:21,656 - Services.LogHelper - INFO - User Test 02
+2020-08-08 21:51:21,657 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 21:51:43,118 - Services.LogHelper - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="userAccount"]"}
+  (Session info: chrome=84.0.4147.105)
+
+2020-08-08 22:55:18,220 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 22:55:18,221 - Services.LogHelper - INFO - load config json file.
+2020-08-08 22:55:18,222 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 22:55:20,396 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 22:55:40,573 - Services.LogHelper - INFO - User Test 01
+2020-08-08 22:55:40,573 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 22:55:47,684 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 22:55:48,292 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 22:55:52,449 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 22:55:54,369 - Services.LogHelper - INFO - Save people infor.
+2020-08-08 22:55:54,486 - Services.LogHelper - INFO - Send email to inform user.
+2020-08-08 22:55:54,525 - Services.LogHelper - INFO - User Test 02
+2020-08-08 22:55:54,526 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 22:55:55,608 - Services.LogHelper - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="$lk_empCode"]"}
+  (Session info: chrome=84.0.4147.105)
+
+2020-08-08 22:59:19,106 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 22:59:19,107 - Services.LogHelper - INFO - load config json file.
+2020-08-08 22:59:19,108 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 22:59:21,061 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 22:59:45,326 - Services.LogHelper - INFO - User Test 01
+2020-08-08 22:59:51,696 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 23:00:10,461 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 23:00:41,850 - Services.LogHelper - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="$lk_empCode"]"}
+  (Session info: chrome=84.0.4147.105)
+
+2020-08-08 23:01:34,842 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 23:01:34,842 - Services.LogHelper - INFO - load config json file.
+2020-08-08 23:01:34,843 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 23:01:36,760 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 23:01:49,954 - Services.LogHelper - INFO - User Test 01
+2020-08-08 23:01:54,588 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 23:02:17,009 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 23:02:39,009 - Services.LogHelper - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="$lk_empCode"]"}
+  (Session info: chrome=84.0.4147.105)
+
+2020-08-08 23:03:05,809 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 23:03:05,809 - Services.LogHelper - INFO - load config json file.
+2020-08-08 23:03:05,810 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 23:03:08,396 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 23:03:19,350 - Services.LogHelper - INFO - User Test 01
+2020-08-08 23:03:23,778 - Services.LogHelper - INFO - Check if people id exsit in employee_account.
+2020-08-08 23:03:51,546 - Services.LogHelper - INFO - Check if people id exsit in user_account.
+2020-08-08 23:04:28,573 - Services.LogHelper - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="$lk_empCode"]"}
+  (Session info: chrome=84.0.4147.105)
+
+2020-08-08 23:11:35,341 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 23:11:35,342 - Services.LogHelper - INFO - load config json file.
+2020-08-08 23:11:35,342 - Services.LogHelper - INFO - load account details from excel.
+2020-08-08 23:11:37,441 - Services.LogHelper - INFO - Navigate to COT website
+2020-08-08 23:11:56,858 - Services.LogHelper - INFO - User Test 01
+2020-08-08 23:11:58,380 - Services.LogHelper - INFO - Check if people id exsit in emp management.
+2020-08-08 23:12:16,629 - Services.LogHelper - INFO - Check if people id exsit in user management.
+2020-08-08 23:12:33,703 - Services.LogHelper - WARNING - nickTest01 has already exsited.
+2020-08-08 23:12:38,658 - Services.LogHelper - INFO - User Test 02
+2020-08-08 23:12:39,638 - Services.LogHelper - INFO - Check if people id exsit in emp management.
+2020-08-08 23:12:43,519 - Services.LogHelper - INFO - Navigate to employee account and add memeber.
+2020-08-08 23:12:45,201 - Services.LogHelper - INFO - Radio button click.
+2020-08-08 23:12:45,337 - Services.LogHelper - INFO - Region select via pop window.
+2020-08-08 23:12:50,485 - Services.LogHelper - INFO - Save people infor.
+2020-08-08 23:12:54,024 - Services.LogHelper - INFO - Check if people id exsit in user management.
+2020-08-08 23:12:58,479 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 23:13:01,306 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 23:13:03,487 - Services.LogHelper - INFO - Save people infor.
+2020-08-08 23:13:11,962 - Services.LogHelper - INFO - Send email to inform user.
+2020-08-08 23:13:21,011 - Services.LogHelper - INFO - User Test 03
+2020-08-08 23:13:21,011 - Services.LogHelper - INFO - Check if people id exsit in emp management.
+2020-08-08 23:13:23,861 - Services.LogHelper - INFO - Navigate to employee account and add memeber.
+2020-08-08 23:13:24,890 - Services.LogHelper - INFO - Radio button click.
+2020-08-08 23:13:25,052 - Services.LogHelper - INFO - Region select via pop window.
+2020-08-08 23:13:30,247 - Services.LogHelper - INFO - Save people infor.
+2020-08-08 23:13:30,370 - Services.LogHelper - INFO - Check if people id exsit in user management.
+2020-08-08 23:13:34,065 - Services.LogHelper - INFO - Navigate to user account and add memeber.
+2020-08-08 23:13:36,684 - Services.LogHelper - INFO - Cehck user name from pop up window.
+2020-08-08 23:13:38,429 - Services.LogHelper - INFO - Save people infor.
+2020-08-08 23:13:38,616 - Services.LogHelper - INFO - Send email to inform user.
+2020-08-08 23:13:38,647 - Services.LogHelper - INFO - Finish.
+2020-08-08 23:22:47,351 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 23:23:21,916 - Services.LogHelper - INFO - Start creating account for user Test 01
+2020-08-08 23:23:33,298 - Services.LogHelper - WARNING - nickTest01 has already exsited.
+2020-08-08 23:23:33,298 - Services.LogHelper - INFO - Start creating account for user Test 02
+2020-08-08 23:23:37,888 - Services.LogHelper - WARNING - nickTest02 has already exsited.
+2020-08-08 23:23:37,888 - Services.LogHelper - INFO - Start creating account for user Test 03
+2020-08-08 23:23:42,132 - Services.LogHelper - WARNING - nickTest03 has already exsited.
+2020-08-08 23:23:42,132 - Services.LogHelper - INFO - Finish.
+2020-08-08 23:26:59,599 - Services.LogHelper - INFO - ----------------Start----------------
+2020-08-08 23:27:29,416 - Services.LogHelper - INFO - Start creating account for user Test 01
+2020-08-08 23:27:36,245 - Services.LogHelper - WARNING - nickTest01 has already exsited.
+2020-08-08 23:27:36,245 - Services.LogHelper - INFO - Start creating account for user Test 02
+2020-08-08 23:27:40,497 - Services.LogHelper - WARNING - nickTest02 has already exsited.
+2020-08-08 23:27:40,498 - Services.LogHelper - INFO - Start creating account for user Test 03
+2020-08-08 23:27:44,358 - Services.LogHelper - WARNING - nickTest03 has already exsited.
+2020-08-08 23:27:44,358 - Services.LogHelper - INFO - Finish.
+2020-08-08 23:27:44,358 - Services.LogHelper - INFO - -----------------End-----------------
