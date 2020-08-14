@@ -1,0 +1,10 @@
+{
+	"username" : "louis",
+	"password" : "1111",
+	"account_details_file_path" : "",
+	"url_options" : {
+		"cot_url":"",
+		"cot_emp_url":"",
+		"cot_user_url":""
+	}
+}

@@ -1,5 +1,7 @@
-import os, sys
-sys.path.append(os.getcwd())
+from sys import path
+from os import getcwd
+
+path.append(getcwd())
 
 from Models.AccountDetails import AccountDetails
 from Services.LogHelper import LogHelper
@@ -8,7 +10,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 class  WebFormFillingHelper():
     def __init__(self, username, password, target_url, base_emp_url, base_user_url, logger: LogHelper):
-        self.__driver = webdriver.Chrome()
+        chromeDriverPath = r'.\tools\chromedriver.exe'
+        self.__driver = webdriver.Chrome(chromeDriverPath)
         self.__target_url = target_url
         self.__baseEmp_url = base_emp_url
         self.__baseUser_url = base_user_url
@@ -94,19 +97,26 @@ class  WebFormFillingHelper():
         self.__driver.find_element_by_name('userAccount').send_keys(user_id)
         self.__driver.find_element_by_name('userPassword').send_keys(password)
         self.__driver.find_element_by_xpath('//*[@id="userScrollAuto"]/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td[4]/select/option[2]').click()
+        self.__driver.find_element_by_name('empName').click()
 
         self.__logger.debug(f"Cehck user name from pop up window.")
-        self.__driver.find_element_by_name('empName').click()
         self.__driver.switch_to_frame("modalDialog")
         frime_tree = WebDriverWait(self.__driver, 10).until(lambda d: d.find_element_by_xpath('/html/body/iframe'))
         self.__driver.switch_to_frame(frime_tree)
-
         id_search_bar= WebDriverWait(self.__driver, 10).until(lambda d: d.find_element_by_name('empCode'))
         id_search_bar.send_keys(user_id)
         self.__driver.find_element_by_id("query_A").click()
         first_option= WebDriverWait(self.__driver, 10).until(lambda d: d.find_element_by_xpath('//*[@id="rdo1"]'))
         first_option.click()
         self.__driver.find_element_by_link_text('确定').click()
+
+        self.__logger.debug(f"Check one option from left tree.")
+        self.__driver.switch_to_default_content()
+        self.__driver.switch_to_frame("main")
+        left_frime = WebDriverWait(self.__driver, 10).until(lambda d: d.find_element_by_xpath('//*[@id="leftmenu1"]/iframe'))
+        self.__driver.switch_to_frame(left_frime)
+        user_right = self.__driver.find_element_by_xpath('//*[@id="t-36036"]/span/i')
+        user_right.click()
         self.__save_input_ppl_info()
     
 

@@ -1,10 +1,10 @@
-import os
-import win32com.client as win32
+from os import listdir, path
+from win32com.client import Dispatch
 import Models.EmaiModel as emailModel
 
 class OutlookHelper():
     def __init__(self, email: emailModel.Email):
-        outlook = win32.Dispatch('Outlook.Application')
+        outlook = Dispatch('Outlook.Application')
         self.__mail_item = outlook.CreateItem(0)
         self.__email = email
 
@@ -18,7 +18,7 @@ class OutlookHelper():
 
     
     def __attach_files(self):
-        listOfFile = os.listdir(self.__email.attachmentPath)
+        listOfFile = listdir(self.__email.attachmentPath)
         for entry in listOfFile:
-            fullPath = os.path.join(self.__email.attachmentPath, entry)
+            fullPath = path.join(self.__email.attachmentPath, entry)
             self.__mail_item.Attachments.Add(fullPath)

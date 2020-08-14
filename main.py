@@ -1,6 +1,7 @@
-import os
-import json
-import pandas as pd
+from os import startfile
+from pandas import read_excel
+from json import load
+import win32api,win32con
 import Models.AccountDetails as ad
 import Models.EmaiModel as em
 import Services.OutlookHelper as outlook_helper
@@ -13,20 +14,21 @@ logger.info("----------------Start----------------")
 
 try:
     logger.debug("Load config json file.")
-    config_file_path = "config.json"
+    config_file_path = r'.\tools\config.json'
+
     with open(config_file_path,encoding="utf-8") as f:
-        config = json.load(f)
+        config = load(f)
 
     logger.debug("Load account details from excel.")
     account_details_file_path = config['account_details_file_path']
-    df = pd.read_excel(account_details_file_path)
+    df = read_excel(account_details_file_path, sheet_name="申请表格", skiprows=[0,2,3])
 
     account_list = []
     for ind in df.index:
-        user_id = df['UserId'][ind]
-        user_name = df['UserName'][ind]
-        email_address = df['EmailAddress'][ind]
-        locate_region = df['LocateRegion'][ind]
+        user_id = df['工号'][ind]
+        user_name = df['姓名'][ind]
+        email_address = df['邮箱地址'][ind]
+        locate_region = df['人员所在地（填写城市）'][ind]
 
         person_account_details = ad.AccountDetails(user_id, user_name, email_address, locate_region)
         account_list.append(person_account_details)
@@ -41,7 +43,7 @@ try:
     auto_fillinger.login_cot_webpage()
 
     # open another outlook in case user did not open it
-    os.startfile("outlook")
+    startfile("outlook")
 
     # iterate account infor for filling
     for account in account_list:
@@ -55,6 +57,8 @@ try:
             outlook.send_mail()
 
     logger.info("Finish.")
+    win32api.MessageBox(0, "Process completed!", "COT account create",win32con.MB_OK)
 
 except Exception as e:
+    win32api.MessageBox(0, f"{e}", "Error",win32con.MB_OK)
     logger.error(f"{e}")

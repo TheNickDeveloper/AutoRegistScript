@@ -1,5 +1,6 @@
-import os, sys
-sys.path.append(os.getcwd())
+from sys import path
+from os import getcwd
+path.append(getcwd())
 
 from Models.AccountDetails import AccountDetails
 
