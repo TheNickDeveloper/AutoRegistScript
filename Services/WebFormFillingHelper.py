@@ -37,14 +37,20 @@ class  WebFormFillingHelper():
             self.__create_emp_account(user_id, user_name, region)
         
         if not self.__is_user_id_exsit(user_id):
-            self.__create_user_account(user_id, password)
-            return True
+
+            # check account if exist
+            if not self.__is_user_account_exsit(user_id):
+                self.__create_user_account(user_id, password)
+                return True
+            else:
+                self.__logger.warning(f"User account of '{user_id}' has been used.")
+                return False
         else:
-            self.__logger.warning(f"{user_id} has already exsited.")
+            self.__logger.warning(f"User id of '{user_id}' had user account already.")
             return False
 
     
-    def __is_emp_id_exsit(self, user_id):
+    def __is_emp_id_exsit(self, user_id) -> bool:
         self.__logger.debug(f"Check if people id exsit in emp management.")
         self.__driver.get(self.__baseEmp_url)
         self.__driver.refresh()
@@ -56,7 +62,7 @@ class  WebFormFillingHelper():
         return len(emp_id_search_result) > 0
     
 
-    def __is_user_id_exsit(self, user_id):
+    def __is_user_id_exsit(self, user_id) -> bool:
         self.__logger.debug(f"Check if people id exsit in user management.")
         self.__driver.get(self.__baseUser_url)
         self.__driver.refresh()
@@ -67,6 +73,18 @@ class  WebFormFillingHelper():
         emp_id_search_result = data_table.find_elements_by_tag_name("tr")
         return len(emp_id_search_result) > 0
     
+
+    def __is_user_account_exsit(self, user_account) -> bool:
+        self.__logger.debug(f"Check if user account exsit in user management.")
+        self.__driver.get(self.__baseUser_url)
+        self.__driver.refresh()
+        self.__driver.switch_to_frame("main")
+        self.__driver.find_element_by_name("$lk_userAccount").send_keys(user_account)
+        self.__driver.find_element_by_id("query_A").click()
+        data_table = WebDriverWait(self.__driver, 10).until(lambda d: d.find_element_by_class_name("tableBody"))
+        emp_id_search_result = data_table.find_elements_by_tag_name("tr")
+        return len(emp_id_search_result) > 0
+
 
     def __create_emp_account(self, user_id, user_name, region):
         self.__logger.debug(f"Navigate to employee account and add memeber.")
@@ -125,5 +143,9 @@ class  WebFormFillingHelper():
         self.__driver.switch_to_default_content()
         self.__driver.switch_to_frame("main")
         self.__driver.find_element_by_link_text('保存').click()
+    
+
+    def dispose_driver(self):
+        self.__driver.close()
         
 
